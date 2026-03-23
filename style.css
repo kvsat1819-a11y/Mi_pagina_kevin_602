@@ -1,5 +1,5 @@
 h1 {
-    color: aqua;
+    color: rgba(173, 231, 139, 0.596);
 }
 body {
     font-family: Arial, Helvetica, sans-serif;
@@ -15,7 +15,7 @@ header{
     padding: 30px 20px;
 }
 nav{
-    background-color:brown ;
+    background-color:rgba(151, 113, 113, 0.377) ;
     text-align: center;
     padding: 12px;
 }
