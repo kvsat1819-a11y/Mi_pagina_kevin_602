@@ -9,7 +9,7 @@ body {
 
 }
 header{
-    background-color:aquamarine ;
+    background-color:rgba(236, 255, 127, 0.753) ;
     color: blueviolet;
     text-align: center;
     padding: 30px 20px;
@@ -29,7 +29,7 @@ nav a:hover{
     color:black;
 }
 section{
-    background-color:blue;
+    background-color:rgba(0, 132, 255, 0.562);
     margin: 20px auto ;
     padding: 20px;
     width: 80%;
@@ -41,7 +41,7 @@ img{
 }
 footer{
     background-color: aquamarine;
-    color: chartreuse;
+    color: rgb(0, 0, 0);
     text-align: center;
     padding: 10px;
     margin-top: 20px;
