@@ -9,7 +9,7 @@ body {
 
 }
 header{
-    background-color:rgba(236, 255, 127, 0.753) ;
+    background-color:rgba(127, 182, 255, 0.753) ;
     color: blueviolet;
     text-align: center;
     padding: 30px 20px;
@@ -20,7 +20,7 @@ nav{
     padding: 12px;
 }
 nav{
-    color: azure;
+    color: rgb(175, 10, 10);
     text-decoration: antiquewhite;
     margin: 0 15px;
     font-weight: bold;
