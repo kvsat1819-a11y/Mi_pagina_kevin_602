@@ -3,13 +3,13 @@ h1 {
 }
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(233, 67, 55);
+    background-color: rgba(233, 70, 59, 0.541);
     margin: 0;
     line-height: 1.6;
 
 }
 header{
-    background-color:rgba(127, 182, 255, 0.753) ;
+    background-color:rgba(36, 105, 196, 0.767) ;
     color: rgb(4, 8, 12);
     text-align: center;
     padding: 30px 20px;
