@@ -7,6 +7,9 @@ function mostrarmensaje() {
         mensaje.style.opacity="1";
         mensaje.style.transform="translate y(o)" ;
     } ,50);
-    
+
+
+
+ 
 
 
