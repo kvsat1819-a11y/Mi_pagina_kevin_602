@@ -1,4 +1,4 @@
-function mostrarmensaje() {
+function mostrarmensajepec() {
     let mensaje=document.getElementById("mensaje");
     mensaje.innerHTML="cuida y protegea los animales";
     mensaje.style.display="block";
