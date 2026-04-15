@@ -10,7 +10,7 @@ function mostrarmensaje() {
 
 function mostrarmensajepersonal() {
     let mensaje=document.getElementById("mostrarmensajepersonal");
-    mensaje.innerHTML="cuida y proteje a los perros";
+    mensaje.innerHTML="Bienvenidos a mi pagina";
     mensaje.style.display="block";
 }
     setTimeout(()=> {
