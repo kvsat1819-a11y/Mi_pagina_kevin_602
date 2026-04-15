@@ -9,7 +9,7 @@ function mostrarmensaje() {
     } ,50);
 
 function mostrarmensajepersonal() {
-    let mensaje=document.getElementById("mensaje2");
+    let mensaje=document.getElementById("mostrarmensajepersonal");
     mensaje.innerHTML="cuida y proteje a los perros";
     mensaje.style.display="block";
 }
