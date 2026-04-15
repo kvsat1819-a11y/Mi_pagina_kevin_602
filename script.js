@@ -1,4 +1,4 @@
-function mostrarmensajepersonal() {
+function mostrarmensaje() {
     let mensaje=document.getElementById("mensaje");
     mensaje.innerHTML="cuida y protegea los animales";
     mensaje.style.display="block";
@@ -8,9 +8,9 @@ function mostrarmensajepersonal() {
         mensaje.style.transform="translate y(o)" ;
     } ,50);
 
-function mostrarmensaje() {
-    let mensaje=document.getElementById("mensajepersonal");
-    mensaje.innerHTML="hola";
+function mostrarmensajepersonal() {
+    let mensaje=document.getElementById("mensaje2");
+    mensaje.innerHTML="cuida y proteje a los perros";
     mensaje.style.display="block";
 }
     setTimeout(()=> {
