@@ -9,7 +9,7 @@ function mostrarmensaje() {
     } ,50);
 
 function mostrarmensajepersonal() {
-    let mensaje=document.getElementById("mensaje2");
+    let mensaje=document.getElementById("mensajepersonal");
     mensaje.innerHTML="hola";
     mensaje.style.display="block";
 }
