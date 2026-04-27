@@ -4,7 +4,7 @@
 }
 
 .dark-mode {
-  --bg-color: #121212;
+  --bg-color: hwb(101 15% 10% / 0.534);
   --text-color: #181010;
 }
 
