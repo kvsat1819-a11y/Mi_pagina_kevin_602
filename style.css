@@ -106,7 +106,7 @@ body {
   color: var(--text-color);
 }
 
-/* Modo oscuro */
+
 .dark-mode {
   --bg-color: #121212;
   --text-color: #ffffff;
