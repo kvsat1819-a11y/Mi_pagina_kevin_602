@@ -42,16 +42,16 @@ nav a {
 }
 
 nav a:hover {
-  color: rgb(45, 143, 32);
+  color: rgb(0, 0, 0);
 }
 
 section {
-  background: #000000;
+  background: hsl(172, 84%, 36%);
   margin: 20px auto;
   padding: 20px;
   width: 80%;
   border-radius: 12px;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  box-shadow: 0 5px 15px #15c9cfce;
   transition: transform 0.3s;
 }
 
@@ -67,7 +67,7 @@ img {
 
 img:hover {
   transform: scale(1.05);
-  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  box-shadow: 0 5px 15px #26fff44d;
 }
 
 footer {
