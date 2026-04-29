@@ -1,6 +1,6 @@
 :root {
   --bg-color: #71cc69;
-  --text-color: #000000;
+  --text-color: #2dc973;
 }
 
 .dark-mode {
@@ -42,7 +42,7 @@ nav a {
 }
 
 nav a:hover {
-  color: black;
+  color: rgb(45, 143, 32);
 }
 
 section {
