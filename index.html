@@ -81,6 +81,52 @@
       boton.classList.toggle("clicked");
     });
   </script>
+<!-- Botón flotante -->
+<button id="btnTop" title="Ir arriba">↑</button>
 
+<style>
+#btnTop {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: #333;
+  color: white;
+  cursor: pointer;
+  padding: 12px 15px;
+  border-radius: 50%;
+  font-size: 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+  transition: 0.3s;
+}
+
+#btnTop:hover {
+  background-color: #555;
+}
+</style>
+
+<script>
+// Mostrar botón al hacer scroll
+window.onscroll = function() {
+  const btn = document.getElementById("btnTop");
+
+  if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+    btn.style.display = "block";
+  } else {
+    btn.style.display = "none";
+  }
+};
+
+// Subir suavemente al inicio
+document.getElementById("btnTop").addEventListener("click", function() {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth"
+  });
+});
+</script>
 </body>
 </html>
