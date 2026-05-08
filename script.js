@@ -43,7 +43,7 @@ if (!localStorage.getItem("theme")) {
         document.body.classList.add("dark-mode");
     }
 }
-<script>
+
 // Mostrar botón al hacer scroll
 window.onscroll = function() {
   const btn = document.getElementById("btnTop");
@@ -62,4 +62,3 @@ document.getElementById("btnTop").addEventListener("click", function() {
     behavior: "smooth"
   });
 });
-</script>

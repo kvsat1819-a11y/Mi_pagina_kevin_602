@@ -108,7 +108,7 @@ p {
   transform: translateY(20px);
   transition: all 0.5s ease;
 }
-<style>
+
 #btnTop {
   display: none;
   position: fixed;
@@ -130,4 +130,3 @@ p {
 #btnTop:hover {
   background-color: #555;
 }
-</style>
