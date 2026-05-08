@@ -1,10 +1,10 @@
 :root {
   --bg-color: #71cc69;
-  --text-color: #2dc973;
+  --text-color: #000000;
 }
 
 .dark-mode {
-  --bg-color: hwb(101 15% 10% / 0.534);
+  --bg-color: hwb(101 89% 0%);
   --text-color: #181010;
 }
 
