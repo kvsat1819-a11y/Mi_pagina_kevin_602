@@ -43,22 +43,3 @@ if (!localStorage.getItem("theme")) {
         document.body.classList.add("dark-mode");
     }
 }
-
-// Mostrar botón al hacer scroll
-window.onscroll = function() {
-  const btn = document.getElementById("btnTop");
-
-  if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
-    btn.style.display = "block";
-  } else {
-    btn.style.display = "none";
-  }
-};
-
-// Subir suavemente al inicio
-document.getElementById("btnTop").addEventListener("click", function() {
-  window.scrollTo({
-    top: 0,
-    behavior: "smooth"
-  });
-});
