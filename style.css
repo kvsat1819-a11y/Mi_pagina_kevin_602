@@ -4,8 +4,8 @@
 }
 
 .dark-mode {
-  --bg-color: hwb(100 5% 87%);
-  --text-color: #181010;
+  --bg-color: hwb(101 9% 0% / 0);
+  --text-color: #2ceb1b;
 }
 
 body {
